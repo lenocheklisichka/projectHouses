@@ -1,0 +1,50 @@
+*@font-face {
+	font-family: "Geometria-Bold, Geometria-Medium, Geometria-Light";
+	src : url('../font/10261.otf, 10262.otf, 10265.otf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Geometria-Bold, Geometria-Medium, Geometria-Light";
+	box-sizing: border-box;
+    width: 100%;
+    max-width: 1536px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page-header {
+	height: 81px;
+}
+
+.logo {
+	background: url(../img/logo.png);
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 50px;
+}
+
+.text-house {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+span {
+	font-weight: bold;
+}
+
+.box-logo {
+	display: flex;
+}
+
+.working {
+	font-size: 16px;
+	width: 50%;
+
+}
