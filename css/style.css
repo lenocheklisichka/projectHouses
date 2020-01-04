@@ -33,10 +33,12 @@ a {
 .text-house {
 	font-size: 16px;
 	text-transform: uppercase;
+	padding: 15px 0 0 20px;
 }
 
 span {
 	font-weight: bold;
+    font-size: 17px;
 }
 
 .box-logo {
@@ -46,5 +48,56 @@ span {
 .working {
 	font-size: 16px;
 	width: 50%;
+	padding-right: 15px;
+}
 
+.clock {
+	background: url(../img/icon_clock.png);
+	width: 18px;
+	height: 18px; 
+	background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.working-hours {
+	display: flex;
+	padding-top: 10px;	
+}
+
+button {
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #fa4529;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid #fa382a;
+	border-radius: 10px;
+	padding-left: 20px;
+}
+
+.box-header {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 15px;
+}
+
+.blockPhone {
+	display: flex;
+}
+
+.connection {
+     width: 40%;
+     padding-top: 10px;
+}
+
+.block-work {
+	display: flex;
+}
+
+.bg-home {
+	background: url(../img/bg_home.png);
+	background-repeat: no-repeat;
+	height: 480px;
 }
