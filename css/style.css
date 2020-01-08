@@ -100,4 +100,327 @@ button {
 	background: url(../img/bg_home.png);
 	background-repeat: no-repeat;
 	height: 480px;
+	position: relative;
 }
+
+.blockHome {
+	position: absolute;
+	left: 20%;
+	top: 8%;
+	display: block;
+
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.text-home {
+	font-size: 17px;
+	color: #fff;
+	width: 62%;
+	padding-top: 20px;
+	line-height: 22px;
+}
+
+.text-warranty {
+	font-size: 14px;
+	color: #fff;
+	width: 30%;
+	padding-top: 20px;
+	line-height: 20px;
+}
+
+.text-team {
+	font-size: 14px;
+	color: #fff;
+	width: 15%;
+	padding-right: 50px;
+}
+
+.text-team:last-child {
+	padding-right: 0; 
+}
+
+strong {
+	font-size: 12px;
+}
+
+.box-team {
+	display: flex;
+	position: absolute;
+	left: 20%;
+	top : 79%;
+}
+
+.hexagon {
+    width: 300px;
+    height: 339px;
+    background: url(../img/hexagon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 61.3%;
+    top: 15%;
+}
+
+.heading {
+	font-size: 14px;
+	font-weight: bold;
+	width: 55%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 62px;
+}
+
+.name {
+	font-size: 12px;
+	text-align: center;
+	padding: 12px;
+	margin-top: 5px;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+}
+
+form {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.btn {
+	font-size: 14px;
+	color: #fff;
+	background-color: #f94e28;
+	padding: 12px 41px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.page-projects {
+	height: 800px;
+}
+
+.heading-projects {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.selection {
+	display: flex;
+	width: 20%;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+
+.economy {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #2a4258;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.average, .premium {
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top: 6px;
+	color: #2a4258;
+}
+
+.average:hover, .premium:hover {
+	border: 1px solid #2a4258;
+	border-radius: 5px;
+	padding: 5px;	
+}
+
+.box-projects {
+	display: flex;
+	width: 100%;
+	max-width: 1145px;
+	margin: 0 auto;
+	justify-content: center; 
+	padding-top: 50px;
+}
+
+.block-project {
+	width: 100%;
+	max-width: 370px;
+	height: 470px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	margin-left: 15px;
+}
+
+.block-project:first-child {
+	margin-left: 0;
+}
+
+.house1 {
+	background: url(../img/images_house.png);
+	background-repeat: no-repeat;
+	width: 370px;
+	height: 240px;
+}
+
+.homes-forever {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.area {
+	font-size: 16px;
+	line-height: 20px;
+	width: 56%;
+	padding-top: 23px;
+	margin: 0 auto; 
+}
+
+.box-btn {
+     font-size: 12px;
+     color: #fff;
+     background-color: #f94e28;
+     border: 1px solid #f94e28;
+     padding: 15px 25px;
+     border-radius: 5px;
+     margin-top: 23px;
+     width: 90%;
+}
+
+.content {
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.block-ellips {
+	display: flex;
+	width: 15%;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-top: 80px;
+}
+
+.leftArrow {
+	background: url(../img/leftArrowbutton.png);
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 20px;
+}
+
+.box-ellips {
+	display: flex;
+}
+
+.ellips2 {
+	background: url(../img/ellips2.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	padding-right: 10px;
+}
+
+.ellips3 {
+	background: url(../img/ellips3.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.rightArrow {
+    background: url(../img/rightArrowbutton.png);
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 20px;
+}
+
+.bg2Home {
+	background: url(../img/bg2_home.png);
+	background-repeat: no-repeat;
+	height: 1151px;
+	position: relative;
+}
+
+.leaves {
+	background: url(../img/leaves.png);
+	background-repeat: no-repeat;
+	width: 453px;
+	height: 80px;
+	position: absolute;
+	left: 35%;
+}
+
+.head-projects {
+	font-size: 25px;
+	font-weight: bold;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.text-development {
+	font-size: 15px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.box-home {
+	display: flex;
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.img {
+	width: 370px;
+	height: 245px;
+	padding-right: 15px;
+}
+
+.img:last-child {
+	padding-right: 0;
+}
+
+.imgHome {
+	background: url(../img/img_home.png);
+	background-repeat: no-repeat;
+}
+
+.houseGreen {
+	background: url(../img/house_green.png);
+	background-repeat: no-repeat;
+}
+
+.houseImg {
+	background: url(../img/house_img.png);
+	background-repeat: no-repeat;
+}
+
+.house2 {
+	background: url(../img/house.png);
+	background-repeat: no-repeat;
+}
+
+.home {
+	background: url(../img/home.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
