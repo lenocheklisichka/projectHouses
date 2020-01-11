@@ -397,6 +397,17 @@ form {
 .houseGreen {
 	background: url(../img/house_green.png);
 	background-repeat: no-repeat;
+	position: relative;
+}
+
+.plus {
+	background: url(../img/plus.png);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 40%;
+	top: 40%;
 }
 
 .houseImg {
@@ -414,7 +425,281 @@ form {
 	background-repeat: no-repeat;
 }
 
+.page-forma {
+	width: 100%;
+	max-width: 1140px;
+	height: 250px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
 
+.block-forma {
+	padding-left: 12%;
+	width: 100%;
+}
+
+.heading-form {
+	font-size: 20px;
+	font-weight: bold;
+	width: 70%;
+	padding-top: 40px;
+}
+
+.text-forma {
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.forma {
+	font-size: 12px;
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    width: 15%;
+    margin-right: 20px;
+}
+
+.box-forma {
+	margin-top: 20px;
+}
+
+.button {
+	font-size: 13px;
+}
+
+.page-construction {
+	height: 800px;
+}
+
+.box-construction {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.head-construction {
+	font-size: 30px;
+	font-weight: bold;
+	color: #284157;
+	text-align: center;
+	padding-top: 70px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-construction {
+	font-size: 20px;
+    padding-top: 40px;
+    width: 54%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home-construction {
+	background: url(../img/home_construction.png);
+	background-repeat: no-repeat;
+	width: 441px;
+	height: 394px;
+	margin: 0 auto;
+}
+
+.boxConstruction {
+	margin-top: 60px;
+	position: relative;
+}
+
+.item {
+	font-size: 20px;
+	color: #284157;
+	text-decoration: underline;
+}
+
+.item1 {
+	position: absolute;
+	top: 13%;
+	left: 1%;
+}
+
+.item2 {
+	position: absolute;
+	top: 42%;
+	left: 5%;
+}
+
+.item3 {
+	position: absolute;
+	top: 65%;
+	left: 5%;
+}
+
+.item4 {
+	position: absolute;
+	top: 93%;
+	left: 9%;
+}
+
+.item5 {
+	position: absolute;
+	top: 2%;
+	left: 86%;
+}
+
+.item6{
+	position: absolute;
+	top: 26%;
+	left: 86%;
+}
+
+.item7 {
+	position: absolute;
+	top: 52%;
+    left: 86%;
+}
+
+.item8 {
+	position: absolute;
+	top: 78%;
+    left: 86%;
+}
+
+.hr {
+	width: 15%;
+	border-top: 1px solid  #fb9439;
+	position: absolute;
+	right: 66%;
+}
+
+.hr2 {
+	position: absolute;
+	width: 25%;
+	border-top: 1px solid #fb9439;
+	right: 55%;
+    top: 45%; 
+}
+
+.hr3 {
+	width: 11%;
+	border-top: 1px solid  #fb9439;
+	position: absolute;
+	right: 69%;
+    top: 68%;
+}
+
+.hr4 {
+	width: 21%;
+	border-top: 1px solid  #fb9439;
+	position: absolute;
+	right: 59%;
+    top: 96%;
+}
+
+.hr5 {
+	width: 20%;
+	border-top: 1px solid  #fb9439;
+	position: absolute;
+	top: 5%;
+    right: 15%;
+}
+
+.hr6 {
+	width: 20%;
+    border-top: 1px solid  #fb9439;
+    position: absolute;
+    top: 29%;
+    left: 65%;
+}
+
+.hr7 {
+    width: 21%;
+    border-top: 1px solid  #fb9439;
+    position: absolute;
+    top: 55%;
+    left: 64%;
+}
+
+.hr8 {
+	width: 37%;
+    border-top: 1px solid  #fb9439;
+    position: absolute;
+    top: 81%;
+    left: 48%;
+}
+
+.ellips {
+	background: url(../img/ellips.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.el1 {
+	position: absolute;
+	left: 35%;
+	top: 14%;
+}
+
+.el2 {
+	position: absolute;
+	left: 46%;
+	top: 43%;
+}
+
+.el3 {
+	position: absolute;
+	left: 32%;
+	top: 66%;
+}
+
+.el4 {
+	position: absolute;
+	top: 94%;
+	left: 42%;
+}
+
+.el5 {
+	position: absolute;
+	right: 36%;
+    top: 2.5%;
+}
+
+.el6 {
+	position: absolute;
+	top: 27%;
+    right: 36%;
+}
+
+.el7 {
+	position: absolute;
+	top: 53%;
+    right: 37%;
+}
+
+.el8 {
+	position: absolute;
+	top: 79%;
+    right: 53%;
+}
+
+.box-item {
+	display: flex;
+	margin-top: 50px;
+}
+
+.block-left {
+	float: left;
+	margin-top: 15px;
+}
+
+.block-right {
+	float: right;
+	margin-bottom: 40px;
+}
+
+.box-item-right {
+	display: flex;
+}
 
 
 
