@@ -701,6 +701,77 @@ form {
 	display: flex;
 }
 
+.page-ConstrMaterials {
+	height: 550px;
+	background-color: #263e53;
+}
+
+.heading-materials {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.slabs {
+	background: url(../img/slabs.png);
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 190px;
+}
+
+.text-materials {
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 20px;
+	
+}
+
+.moreDetails {
+	font-size: 14px;
+	color: #fff;
+	line-height: 45px;
+}
+
+.moreDetails:hover {
+	border-bottom: 1px solid #94a0ab;
+}
+
+.bricks {
+	background: url(../img/bricks.png);
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 190px;
+}
+
+.brickBlocks {
+	background: url(../img/brick_blocks.png);
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 190px;
+}
+
+.foamBlocks {
+	background: url(../img/foam_blocks.png);
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 190px;
+}
+
+.box-materials {
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+.block-materials {
+	text-align: center;
+}
+
 
 
 
