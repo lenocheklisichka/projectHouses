@@ -772,6 +772,165 @@ form {
 	text-align: center;
 }
 
+.bgHouseInAustralia {
+	background: url(../img/houseInAustralia.png);
+	background-repeat: no-repeat;
+	height: 624px;
+	position: relative;
+}
+
+.bgLeaves {
+	background: url(../img/leaves_bg.png);
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 126px;
+	position: absolute;
+	left: 6%; 
+}
+
+.boxContract {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+.headingContract {
+	font-size: 30px;
+	text-align: center;
+}
+
+.blockItem {
+	display: flex;
+	padding-top: 30px;
+}
+
+.blockText {
+	padding-left: 25px;
+}
+
+.textTechnique {
+	font-size: 17px;
+}
+
+.textTime {
+	font-size: 14px;
+	padding-top: 30px;
+}
+
+.page-staff-members {
+	height: 600px;
+}
+
+.heading-staff-members {
+     font-size: 30px;
+     text-align: center;
+     padding-top: 70px;
+}
+
+.box-general-manager {
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+    padding-top: 70px;
+}
+
+.video {
+	background: url(../img/video1.png);
+	background-repeat: no-repeat;
+	width: 670px;
+	height: 301px;
+}
+
+.block-general-manager {
+    width: 30%;
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.text-manager {
+	font-size: 15px;
+	color: #5d7081;
+	padding-top: 35px;
+}
+
+.text-contact {
+	font-size: 16px;
+	padding: 60px 0 30px 0;
+	color: #5d7081;
+}
+
+.bg-company-faces {
+	height: 760px;
+	background-color: #ebf3fa;
+}
+
+.heading-company-faces {
+	text-align: center;
+	padding-top: 70px;
+}
+
+.block-name {
+   width: 42%;
+   margin: 0 auto;
+   padding-bottom: 25px;
+}
+
+.Chief-еngineer {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 23px;
+}
+
+.block-faces {
+    width: 90%;
+    height: 215px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.wrap-company-faces {
+	display: flex;
+	padding-top: 60px;
+	width: 100%;
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+.box-company {
+	text-align: center;
+	font-size: 15px;
+	color: #284157;
+	width: 93%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-company:before {
+    content: "";
+	position: absolute;
+	top: -15px;
+	right: 45%; 
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #fff;
+}
+
+.education {
+	padding-top: 22px;
+}
+
+.experience {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.text-design {
+	padding-top: 20px;
+}
+
 
 
 
