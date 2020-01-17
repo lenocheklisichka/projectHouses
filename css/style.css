@@ -931,6 +931,48 @@ form {
 	padding-top: 20px;
 }
 
+.bg3 {
+	background: url(../img/bg3.png);
+	background-repeat: no-repeat; 
+	height: 598px;
+	position: relative;
+}
+
+.heading-questions {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	padding: 60px 0 40px 0;
+}
+
+.text-questions {
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.seven-questions {
+	padding-top: 50px;
+	position: absolute;
+	left: 20%;
+}
+
+li {
+	font-size: 15px;
+	padding-top: 30px;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+
+
 
 
 
