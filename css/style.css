@@ -971,6 +971,31 @@ a:hover {
 	border-bottom: 1px solid #fff;
 }
 
+.bg-form {
+	height: 400px;
+}
+
+.box-form {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.head-form {
+	font-size: 20px;
+	font-weight: bold;
+	width: 60%;
+	padding-top: 60px;
+}
+
+.text-form {
+	font-size: 15px;
+	padding: 40px 0 45px 0;
+}
+
+.tel-form {
+	font-size: 14px;
+	padding-top: 45px;
+}
 
 
 
