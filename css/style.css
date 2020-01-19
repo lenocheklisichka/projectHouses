@@ -86,7 +86,6 @@ button {
 
 .blockPhone {
 	display: flex;
-	width: 60%;
 	justify-content: space-around;
 }
 
@@ -461,11 +460,11 @@ form {
     padding: 13px;
     border-radius: 5px;
     border: 1px solid #e8e8e8;
-    width: 15%;
     margin-right: 20px;
 }
 
 .box-forma {
+	display: flex;
 	margin-top: 20px;
 }
 
@@ -568,7 +567,7 @@ form {
     left: 86%;
 }
 
-.hr {
+.hr1 {
 	width: 15%;
 	border-top: 1px solid  #fb9439;
 	position: absolute;
@@ -1175,6 +1174,119 @@ h3 {
 
 @media(max-width: 768px) {
 	.working-hours {
+		display: none;
+	}
+
+	.block-name {
+		width: 60%;
+	}
+
+	.block-faces {
+		height: 250px;
+	}
+
+	.boxContract {
+        width: 80%;
+    }
+
+    .page-ConstrMaterials {
+        height: 1400px;
+    }
+}
+
+@media(max-width: 480px) {
+    .bg-home {
+    	background-position: center;
+    }
+
+    .blockHome {
+        position: absolute;
+        left: 10%;
+        top: 18%;
+   } 
+
+   .text-home {
+        width: 50%;
+   }
+
+   .text-warranty {
+   	    width: 40%;
+   }
+
+	.hexagon {
+		display: none;
+	}
+
+	.connection {
+		display: none;
+	}
+
+	.leaves {
+		left: 4%;
+	}
+
+	.head-projects {
+		width: 75%;
+	}
+
+	.img {
+		margin-top: 10px;
+		padding-right: 0;
+	}
+
+	.heading-materials {
+		width: 80%;
+	}
+
+	.bg2Home {
+	    background: url(../img/bg2_homeMedia480.png);
+	    height: 2400px;
+    }
+
+    .page-forma {
+    	width: 75%;
+    	height: 350px;
+    }
+
+    .selection {
+        width: 60%;
+    }
+
+	.heading-form, .text-forma {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.heading-form {
+		padding-top: 20px;
+		font-size: 17px;
+	}
+
+	.box-forma {
+		flex-direction: column;
+		width: 70%;
+		padding-top: 20px;
+		margin: 0 auto;
+	}
+
+	.button {
+		width: 94%;
+		margin-top: 7px;
+	}
+
+	.forma {
+		margin-top: 7px;
+	}
+
+	.head-construction, .text-construction {
+		width: 80%;
+	}
+
+	.item {
+		display: none;
+	}
+
+	.hr {
 		display: none;
 	}
 }
