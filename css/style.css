@@ -77,14 +77,17 @@ button {
 
 .box-header {
 	width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding-top: 15px;
 }
 
 .blockPhone {
 	display: flex;
+	width: 60%;
+	justify-content: space-around;
 }
 
 .connection {
@@ -94,6 +97,7 @@ button {
 
 .block-work {
 	display: flex;
+	justify-content: space-between;
 }
 
 .bg-home {
@@ -436,8 +440,8 @@ form {
 }
 
 .block-forma {
-	padding-left: 12%;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .heading-form {
@@ -763,6 +767,7 @@ form {
 
 .box-materials {
 	display: flex;
+	justify-content: center;
 	width: 70%;
 	margin: 0 auto;
 	padding-top: 60px;
@@ -1089,6 +1094,90 @@ h3 {
 	top: 25%;
 }
 
+* { 
+  border: 1px solid red;
+}
+
+
+/*MEDIA*/
+
+@media(max-width: 1024px) {
+	.box-team {
+		display: none;
+	}
+
+	.hexagon {
+		position: absolute;
+	    left: 45%;
+	    top: 27%;
+	}
+
+	.blockHome {
+	    position: absolute;
+	    left: 28%;
+	}
+
+	.selection {
+		width: 30%;
+	}
+
+	.box-projects {
+		flex-wrap: wrap;
+	}
+
+	.block-project {
+		margin-top: 40px;
+	}
+
+	.page-projects {
+        height: 1250px;
+    }
+
+    .box-home {
+    	flex-wrap: wrap;
+    	margin-top: 30px;
+    }
+
+    .img {
+    	margin-top: 30px;
+    }
+
+    .bg2Home {
+    	background: url(../img/bg2_homeMedia.png);
+    	height: 1520px;
+    }
+
+    .box-materials {
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    }
+
+    .page-ConstrMaterials {
+        height: 800px;
+    }
+
+    .boxContract {
+        width: 60%;
+    }
+
+    .box-general-manager {
+        width: 95%;
+    }
+
+    .box-form {
+        width: 60%;
+    }
+
+    .head-form {
+    	width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+	.working-hours {
+		display: none;
+	}
+}
 
 
 
