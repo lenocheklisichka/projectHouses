@@ -1093,9 +1093,9 @@ h3 {
 	top: 25%;
 }
 
-* { 
+/** { 
   border: 1px solid red;
-}
+}*/
 
 
 /*MEDIA*/
@@ -1221,12 +1221,25 @@ h3 {
 		display: none;
 	}
 
+	.page-projects {
+        height: 1720px;
+    }
+
+    .box-projects {
+    	padding-top: 20px;
+    }
+
 	.leaves {
 		left: 4%;
 	}
 
 	.head-projects {
-		width: 75%;
+		width: 60%;
+	}
+
+	.text-development {
+		width: 50%;
+		margin: 0 auto;
 	}
 
 	.img {
@@ -1279,7 +1292,8 @@ h3 {
 	}
 
 	.head-construction, .text-construction {
-		width: 80%;
+		width: 70%;
+		font-size: 25px;
 	}
 
 	.item {
@@ -1289,6 +1303,101 @@ h3 {
 	.hr {
 		display: none;
 	}
+
+	.bg-company-faces {
+		height: 1860px;
+	}
+
+	.wrap-company-faces {
+		flex-wrap: wrap;
+	}
+
+	.block-faces {
+		width: 60%;
+	}
+
+	.block-name {
+	    width: 31%;
+	    margin: 0 auto;
+	    padding-top: 10px;
+    }
+
+    .bgHouseInAustralia {
+        background: url(../img/houseInAustraliaMedia.png);
+    	height: 900px;
+    }
+
+    .boxContract {
+    	padding-top: 100px;
+    }
+
+    .page-staff-members {
+        height: 840px;
+    }
+
+    .heading-staff-members {
+    	font-size: 22px;
+    }
+
+    .video {
+        background: url(../img/video1Media.png);
+        width: 440px;
+        height: 282px;
+    }
+
+    .block-general-manager {
+    	width: 80%;
+    }
+
+    .box-general-manager {
+    	flex-direction: column;
+    	width: 92%;
+    }
+
+    .bg3 {
+    	background-position: center;
+    }
+
+    .bg-form {
+        height: 600px;
+    }
+
+    .block-form {
+    	flex-direction: column;
+    }
+
+    .box-form {
+       width: 75%;
+    }
+
+    .yourForm {
+    	width: 70%;
+    	margin-top: 20px;
+    }
+
+    .tel-form {
+    	width: 90%;
+    }
+
+    .buttonForm {
+       width: 80%;
+       padding: 15px;
+       margin-top: 20px;
+    }
+
+    .box-projectAddress {
+       flex-direction: column;
+    }
+
+    .map {
+    	background: url(../img/mapMedia.png);
+    	width: 479px;
+    	height: 266px;
+    }
+
+    .bg-projectAddress {
+        width: 479px;
+    }
 }
 
 
