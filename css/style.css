@@ -1,6 +1,6 @@
-*@font-face {
+@font-face {
 	font-family: "Geometria-Bold, Geometria-Medium, Geometria-Light";
-	src : url('../font/10261.otf, 10262.otf, 10265.otf');
+	src: url('../font/ Geometria-Bold.otf, Geometria-Medium.otf, Geometria-Light.otf');
 }
 
 * {
@@ -11,8 +11,8 @@
 body {
 	font-family: "Geometria-Bold, Geometria-Medium, Geometria-Light";
 	box-sizing: border-box;
-    width: 100%;
-    max-width: 1536px;
+	width: 100%;
+	max-width: 1536px;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
 
 span {
 	font-weight: bold;
-    font-size: 17px;
+	font-size: 17px;
 }
 
 .box-logo {
@@ -54,14 +54,14 @@ span {
 .clock {
 	background: url(../img/icon_clock.png);
 	width: 18px;
-	height: 18px; 
+	height: 18px;
 	background-repeat: no-repeat;
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .working-hours {
 	display: flex;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 button {
@@ -90,8 +90,8 @@ button {
 }
 
 .connection {
-     width: 40%;
-     padding-top: 10px;
+	width: 40%;
+	padding-top: 10px;
 }
 
 .block-work {
@@ -144,7 +144,7 @@ h1 {
 }
 
 .text-team:last-child {
-	padding-right: 0; 
+	padding-right: 0;
 }
 
 strong {
@@ -155,17 +155,17 @@ strong {
 	display: flex;
 	position: absolute;
 	left: 20%;
-	top : 79%;
+	top: 79%;
 }
 
 .hexagon {
-    width: 300px;
-    height: 339px;
-    background: url(../img/hexagon.png);
-    background-repeat: no-repeat;
-    position: relative;
-    left: 61.3%;
-    top: 15%;
+	width: 300px;
+	height: 339px;
+	background: url(../img/hexagon.png);
+	background-repeat: no-repeat;
+	position: relative;
+	left: 61.3%;
+	top: 15%;
 }
 
 .heading {
@@ -229,17 +229,19 @@ form {
 	padding: 5px;
 }
 
-.average, .premium {
+.average,
+.premium {
 	font-size: 15px;
 	text-transform: uppercase;
 	padding-top: 6px;
 	color: #2a4258;
 }
 
-.average:hover, .premium:hover {
+.average:hover,
+.premium:hover {
 	border: 1px solid #2a4258;
 	border-radius: 5px;
-	padding: 5px;	
+	padding: 5px;
 }
 
 .box-projects {
@@ -247,7 +249,7 @@ form {
 	width: 100%;
 	max-width: 1145px;
 	margin: 0 auto;
-	justify-content: center; 
+	justify-content: center;
 	padding-top: 50px;
 }
 
@@ -281,18 +283,18 @@ form {
 	line-height: 20px;
 	width: 56%;
 	padding-top: 23px;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 
 .box-btn {
-     font-size: 12px;
-     color: #fff;
-     background-color: #f94e28;
-     border: 1px solid #f94e28;
-     padding: 15px 25px;
-     border-radius: 5px;
-     margin-top: 23px;
-     width: 90%;
+	font-size: 12px;
+	color: #fff;
+	background-color: #f94e28;
+	border: 1px solid #f94e28;
+	padding: 15px 25px;
+	border-radius: 5px;
+	margin-top: 23px;
+	width: 90%;
 }
 
 .content {
@@ -336,7 +338,7 @@ form {
 }
 
 .rightArrow {
-    background: url(../img/rightArrowbutton.png);
+	background: url(../img/rightArrowbutton.png);
 	background-repeat: no-repeat;
 	width: 12px;
 	height: 20px;
@@ -457,10 +459,10 @@ form {
 
 .forma {
 	font-size: 12px;
-    padding: 13px;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-    margin-right: 20px;
+	padding: 13px;
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
+	margin-right: 20px;
 }
 
 .box-forma {
@@ -488,16 +490,16 @@ form {
 	color: #284157;
 	text-align: center;
 	padding-top: 70px;
-    width: 70%;
-    margin: 0 auto;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .text-construction {
 	font-size: 20px;
-    padding-top: 40px;
-    width: 54%;
-    text-align: center;
-    margin: 0 auto;
+	padding-top: 40px;
+	width: 54%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .home-construction {
@@ -549,7 +551,7 @@ form {
 	left: 86%;
 }
 
-.item6{
+.item6 {
 	position: absolute;
 	top: 26%;
 	left: 86%;
@@ -558,18 +560,18 @@ form {
 .item7 {
 	position: absolute;
 	top: 52%;
-    left: 86%;
+	left: 86%;
 }
 
 .item8 {
 	position: absolute;
 	top: 78%;
-    left: 86%;
+	left: 86%;
 }
 
 .hr1 {
 	width: 15%;
-	border-top: 1px solid  #fb9439;
+	border-top: 1px solid #fb9439;
 	position: absolute;
 	right: 66%;
 }
@@ -579,55 +581,55 @@ form {
 	width: 25%;
 	border-top: 1px solid #fb9439;
 	right: 55%;
-    top: 45%; 
+	top: 45%;
 }
 
 .hr3 {
 	width: 11%;
-	border-top: 1px solid  #fb9439;
+	border-top: 1px solid #fb9439;
 	position: absolute;
 	right: 69%;
-    top: 68%;
+	top: 68%;
 }
 
 .hr4 {
 	width: 21%;
-	border-top: 1px solid  #fb9439;
+	border-top: 1px solid #fb9439;
 	position: absolute;
 	right: 59%;
-    top: 96%;
+	top: 96%;
 }
 
 .hr5 {
 	width: 20%;
-	border-top: 1px solid  #fb9439;
+	border-top: 1px solid #fb9439;
 	position: absolute;
 	top: 5%;
-    right: 15%;
+	right: 15%;
 }
 
 .hr6 {
 	width: 20%;
-    border-top: 1px solid  #fb9439;
-    position: absolute;
-    top: 29%;
-    left: 65%;
+	border-top: 1px solid #fb9439;
+	position: absolute;
+	top: 29%;
+	left: 65%;
 }
 
 .hr7 {
-    width: 21%;
-    border-top: 1px solid  #fb9439;
-    position: absolute;
-    top: 55%;
-    left: 64%;
+	width: 21%;
+	border-top: 1px solid #fb9439;
+	position: absolute;
+	top: 55%;
+	left: 64%;
 }
 
 .hr8 {
 	width: 37%;
-    border-top: 1px solid  #fb9439;
-    position: absolute;
-    top: 81%;
-    left: 48%;
+	border-top: 1px solid #fb9439;
+	position: absolute;
+	top: 81%;
+	left: 48%;
 }
 
 .ellips {
@@ -664,25 +666,25 @@ form {
 .el5 {
 	position: absolute;
 	right: 36%;
-    top: 2.5%;
+	top: 2.5%;
 }
 
 .el6 {
 	position: absolute;
 	top: 27%;
-    right: 36%;
+	right: 36%;
 }
 
 .el7 {
 	position: absolute;
 	top: 53%;
-    right: 37%;
+	right: 37%;
 }
 
 .el8 {
 	position: absolute;
 	top: 79%;
-    right: 53%;
+	right: 53%;
 }
 
 .box-item {
@@ -730,7 +732,7 @@ form {
 	color: #fff;
 	text-transform: uppercase;
 	padding-top: 20px;
-	
+
 }
 
 .moreDetails {
@@ -789,7 +791,7 @@ form {
 	width: 400px;
 	height: 126px;
 	position: absolute;
-	left: 6%; 
+	left: 6%;
 }
 
 .boxContract {
@@ -826,16 +828,16 @@ form {
 }
 
 .heading-staff-members {
-     font-size: 30px;
-     text-align: center;
-     padding-top: 70px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 70px;
 }
 
 .box-general-manager {
 	display: flex;
 	width: 70%;
 	margin: 0 auto;
-    padding-top: 70px;
+	padding-top: 70px;
 }
 
 .video {
@@ -846,9 +848,9 @@ form {
 }
 
 .block-general-manager {
-    width: 30%;
-    padding-top: 35px;
-    padding-left: 60px;
+	width: 30%;
+	padding-top: 35px;
+	padding-left: 60px;
 }
 
 .text-manager {
@@ -874,9 +876,9 @@ form {
 }
 
 .block-name {
-   width: 42%;
-   margin: 0 auto;
-   padding-bottom: 25px;
+	width: 42%;
+	margin: 0 auto;
+	padding-bottom: 25px;
 }
 
 .Chief-еngineer {
@@ -886,11 +888,11 @@ form {
 }
 
 .block-faces {
-    width: 90%;
-    height: 215px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 0 auto;
+	width: 90%;
+	height: 215px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 0 auto;
 }
 
 .wrap-company-faces {
@@ -911,10 +913,10 @@ form {
 }
 
 .box-company:before {
-    content: "";
+	content: "";
 	position: absolute;
 	top: -15px;
-	right: 45%; 
+	right: 45%;
 	width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
@@ -937,7 +939,7 @@ form {
 
 .bg3 {
 	background: url(../img/bg3.png);
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
 	height: 598px;
 	position: relative;
 }
@@ -1038,7 +1040,7 @@ a:hover {
 }
 
 .block-projectAddress {
-     padding: 50px 0 0 80px;
+	padding: 50px 0 0 80px;
 }
 
 h3 {
@@ -1107,13 +1109,13 @@ h3 {
 
 	.hexagon {
 		position: absolute;
-	    left: 45%;
-	    top: 27%;
+		left: 45%;
+		top: 27%;
 	}
 
 	.blockHome {
-	    position: absolute;
-	    left: 28%;
+		position: absolute;
+		left: 28%;
 	}
 
 	.selection {
@@ -1129,47 +1131,47 @@ h3 {
 	}
 
 	.page-projects {
-        height: 1250px;
-    }
+		height: 1250px;
+	}
 
-    .box-home {
-    	flex-wrap: wrap;
-    	margin-top: 30px;
-    }
+	.box-home {
+		flex-wrap: wrap;
+		margin-top: 30px;
+	}
 
-    .img {
-    	margin-top: 30px;
-    }
+	.img {
+		margin-top: 30px;
+	}
 
-    .bg2Home {
-    	background: url(../img/bg2_homeMedia.png);
-    	height: 1520px;
-    }
+	.bg2Home {
+		background: url(../img/bg2_homeMedia.png);
+		height: 1520px;
+	}
 
-    .box-materials {
-    	flex-wrap: wrap;
-    	justify-content: space-around;
-    }
+	.box-materials {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
 
-    .page-ConstrMaterials {
-        height: 800px;
-    }
+	.page-ConstrMaterials {
+		height: 800px;
+	}
 
-    .boxContract {
-        width: 60%;
-    }
+	.boxContract {
+		width: 60%;
+	}
 
-    .box-general-manager {
-        width: 95%;
-    }
+	.box-general-manager {
+		width: 95%;
+	}
 
-    .box-form {
-        width: 60%;
-    }
+	.box-form {
+		width: 60%;
+	}
 
-    .head-form {
-    	width: 100%;
-    }
+	.head-form {
+		width: 100%;
+	}
 }
 
 @media(max-width: 768px) {
@@ -1186,32 +1188,32 @@ h3 {
 	}
 
 	.boxContract {
-        width: 80%;
-    }
+		width: 80%;
+	}
 
-    .page-ConstrMaterials {
-        height: 1400px;
-    }
+	.page-ConstrMaterials {
+		height: 1400px;
+	}
 }
 
 @media(max-width: 480px) {
-    .bg-home {
-    	background-position: center;
-    }
+	.bg-home {
+		background-position: center;
+	}
 
-    .blockHome {
-        position: absolute;
-        left: 10%;
-        top: 18%;
-   } 
+	.blockHome {
+		position: absolute;
+		left: 10%;
+		top: 18%;
+	}
 
-   .text-home {
-        width: 50%;
-   }
+	.text-home {
+		width: 50%;
+	}
 
-   .text-warranty {
-   	    width: 40%;
-   }
+	.text-warranty {
+		width: 40%;
+	}
 
 	.hexagon {
 		display: none;
@@ -1222,12 +1224,12 @@ h3 {
 	}
 
 	.page-projects {
-        height: 1720px;
-    }
+		height: 1720px;
+	}
 
-    .box-projects {
-    	padding-top: 20px;
-    }
+	.box-projects {
+		padding-top: 20px;
+	}
 
 	.leaves {
 		left: 4%;
@@ -1252,20 +1254,21 @@ h3 {
 	}
 
 	.bg2Home {
-	    background: url(../img/bg2_homeMedia480.png);
-	    height: 2400px;
-    }
+		background: url(../img/bg2_homeMedia480.png);
+		height: 2400px;
+	}
 
-    .page-forma {
-    	width: 75%;
-    	height: 350px;
-    }
+	.page-forma {
+		width: 75%;
+		height: 350px;
+	}
 
-    .selection {
-        width: 60%;
-    }
+	.selection {
+		width: 60%;
+	}
 
-	.heading-form, .text-forma {
+	.heading-form,
+	.text-forma {
 		width: 80%;
 		margin: 0 auto;
 	}
@@ -1291,7 +1294,8 @@ h3 {
 		margin-top: 7px;
 	}
 
-	.head-construction, .text-construction {
+	.head-construction,
+	.text-construction {
 		width: 70%;
 		font-size: 25px;
 	}
@@ -1317,96 +1321,85 @@ h3 {
 	}
 
 	.block-name {
-	    width: 31%;
-	    margin: 0 auto;
-	    padding-top: 10px;
-    }
+		width: 31%;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
 
-    .bgHouseInAustralia {
-        background: url(../img/houseInAustraliaMedia.png);
-    	height: 900px;
-    }
+	.bgHouseInAustralia {
+		background: url(../img/houseInAustraliaMedia.png);
+		height: 900px;
+	}
 
-    .boxContract {
-    	padding-top: 100px;
-    }
+	.boxContract {
+		padding-top: 100px;
+	}
 
-    .page-staff-members {
-        height: 840px;
-    }
+	.page-staff-members {
+		height: 840px;
+	}
 
-    .heading-staff-members {
-    	font-size: 22px;
-    }
+	.heading-staff-members {
+		font-size: 22px;
+	}
 
-    .video {
-        background: url(../img/video1Media.png);
-        width: 440px;
-        height: 282px;
-    }
+	.video {
+		background: url(../img/video1Media.png);
+		width: 440px;
+		height: 282px;
+	}
 
-    .block-general-manager {
-    	width: 80%;
-    }
+	.block-general-manager {
+		width: 80%;
+	}
 
-    .box-general-manager {
-    	flex-direction: column;
-    	width: 92%;
-    }
+	.box-general-manager {
+		flex-direction: column;
+		width: 92%;
+	}
 
-    .bg3 {
-    	background-position: center;
-    }
+	.bg3 {
+		background-position: center;
+	}
 
-    .bg-form {
-        height: 600px;
-    }
+	.bg-form {
+		height: 600px;
+	}
 
-    .block-form {
-    	flex-direction: column;
-    }
+	.block-form {
+		flex-direction: column;
+	}
 
-    .box-form {
-       width: 75%;
-    }
+	.box-form {
+		width: 75%;
+	}
 
-    .yourForm {
-    	width: 70%;
-    	margin-top: 20px;
-    }
+	.yourForm {
+		width: 70%;
+		margin-top: 20px;
+	}
 
-    .tel-form {
-    	width: 90%;
-    }
+	.tel-form {
+		width: 90%;
+	}
 
-    .buttonForm {
-       width: 80%;
-       padding: 15px;
-       margin-top: 20px;
-    }
+	.buttonForm {
+		width: 80%;
+		padding: 15px;
+		margin-top: 20px;
+	}
 
-    .box-projectAddress {
-       flex-direction: column;
-    }
+	.box-projectAddress {
+		flex-direction: column;
+	}
 
-    .map {
-    	background: url(../img/mapMedia.png);
-    	width: 479px;
-    	height: 266px;
-    }
+	.map {
+		background: url(../img/mapMedia.png);
+		width: 479px;
+		height: 266px;
+	}
 
-    .bg-projectAddress {
-        width: 479px;
-    }
+	.bg-projectAddress {
+		width: 479px;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
